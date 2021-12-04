@@ -27,8 +27,22 @@
     <ClCompile Include="fundamentals.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="helloWorld.c">
+    <ClCompile Include="tokenizing.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="converting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="fundamentals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="manipulating.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tokenizing.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
