@@ -1,21 +1,25 @@
 /*
-Name:         Chun Wing Mak
-Email:        cwmak5@myseneca.ca
-ID:           126998210
-Date written: 5/12
-Course:       CRP101
-Session:      ZEE
-Project:      CRP101 Final Project
-
-fundamentals.c:CRP101_Project
-
-
-source file of fundametals module.
-
+* Name:         Chun Wing Mak
+* Email:        cwmak5@myseneca.ca
+* ID:           126998210
+* Date written: 5/12
+* Course:       CPR101
+* Session:      ZEE
+* Project:      CRP101 Final Project
+* 
+* fundamentals.c:CRP101_Project
+* 
+* 
+* source file of fundametals module.
+*
 */
 
 #include "fundamentals.h"
 
+
+/*
+* to find the character in the string that user provided by the index that user provided
+*/
 void fundamentals() {
 /* Version 1 */
 //>> insert here
