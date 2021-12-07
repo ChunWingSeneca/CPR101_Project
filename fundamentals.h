@@ -5,9 +5,9 @@ ID:           126998210
 Date written: 5/12
 Course:       CPR101
 Session:      ZEE
-Project:      CRP101 Final Project
+Project:      CPR101 Final Project
 
-fundamentals.h:CRP101_Project
+fundamentals.h:CPR101_Project
 
 header file of fundametals module
 
