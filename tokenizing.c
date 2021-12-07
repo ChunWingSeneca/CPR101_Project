@@ -2,7 +2,7 @@
 Name:         Wing Ho Cheung
 Email:        whcheung3@myseneca.ca
 ID:           158387209
-Date written: 5/12
+Date written: 7/12
 Course:       CPR101
 Session:      ZEE
 Project:      CPR101 Final Project
@@ -17,12 +17,12 @@ source file of tokenizing module.
 
 void tokenizing() {
 /*
-Purpose:  Break string into a series of tokens using the delimiter.
+Version 1
+Purpose:  Break few words into a series of tokens using the delimiter.
 Modifies: char words[ARRAY] for the maximum length of the string.
           char *word as pointer to get broken string for printf.
           int w_counter for printf to loop as index number.
 */
-/* Version 1 */
     printf("*** Start of Tokenizing Words Demo ***\n");
     char words[200];
     char *word;
@@ -41,9 +41,30 @@ Modifies: char words[ARRAY] for the maximum length of the string.
     }
     printf("*** End of Tokenizing Words Demo ***\n\n");
 
-/* Version 2 */
-//>> insert here
-
+/*
+Version 2
+Purpose:  Break few phrases into a series of tokens using the delimiter.
+Modifies: char phrases[ARRAY] for the maximum length of the string.
+          char *phrase as pointer to get broken string for printf.
+          int p_counter for printf to loop as index number.
+*/
+    printf("*** Start of Tokenizing Phrases Demo ***\n");
+    char phrases[200];
+    char* phrase;
+    int p_counter;
+    printf("Type a few phrases separated by comma(q - to quit):\n");        // prompt user for phrases to start or quit function
+    gets(phrases);
+    while (strcmp(phrases, "q") != 0) {                                     // keep looping until user input "q" to quit function
+        phrase= strtok(phrases, ",");                                       // break phrases using delimiter "," (comma)
+        p_counter = 1;
+        while (phrase) {                                                    // keep looping until all tokenized phrases are printed
+            printf("Phrase #%d is \'%s\'\n", p_counter++, phrase);
+            phrase = strtok(NULL, ",");
+        }
+        printf("Type a few phrases separated by comma(q - to quit):\n");    // prompt user for phrases to keep looping again
+        gets(phrases);
+    }
+    printf("*** End of Tokenizing Phrases Demo ***\n\n");
 
 /* Version 3 */
 //>> insert here
