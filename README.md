@@ -1,9 +1,9 @@
-# IPC144_project
+# CPR101_project
 
 #### this is the git repo of IPC144 final project.
 
 Semester : Fall 2021
-Cource : IPC144
+Cource : CPR101
 Session : ZEE
 Group : 6
 Members : 
