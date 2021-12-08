@@ -12,8 +12,8 @@ converting.h : CPR101_Project
 header file of converting module.
 */
 
-#ifndef _CONVERTING1_H
-#define _CONVERTING1_H
+#ifndef _CONVERTING_H
+#define _CONVERTING_H
 
 #include <stdio.h>
 #include <stdlib.h>
