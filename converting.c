@@ -1,8 +1,8 @@
-#include "converting1.h"
+#include "converting.h"
 
 /*
-Origin: Kin Lok Chan, klchan11@myseneca.ca, 119293215, 5 Dec 2021, CRP101, Project
-[converting1.c] : [CRP101]
+Origin: Kin Lok Chan, klchan11@myseneca.ca, 119293215, 5 Dec 2021, CPR101, Project
+[converting1.c] : [CPR101]
 Purpose:
     Function coverting will covert the numbers in the string argument to integer and floating number.
     Changing the argument from type str to type int and double.
