@@ -52,6 +52,6 @@ while (strcmp(long_string, "q") != 0){                          //as long as use
     printf("Type the long numeric string (q - to quit):\n");    //prompt user for string to be converted to long integer or quit the function if q is entered
     gets(long_string);
 }
-printf("*** End of Converting Strings to long Demo ***\n\n")
+printf("*** End of Converting Strings to long Demo ***\n\n");
 
 }
