@@ -41,7 +41,17 @@ while(strcmp(double_string, "q") != 0){                         //as long as use
 printf("*** End of Converting Strings to double Demo ***\n\n");
 
 /* Version 3 */
-//>> insert here
-
+printf("*** Start of Converting Strings to long Demo ***\n");
+char long_string[80];
+long long_number;
+printf("Type the long numeric string (q - to quit):\n");        //prompt user for string to be converted to long integer or quit the function if q is entered
+gets(long_string);
+while (strcmp(long_string, "q") != 0){                          //as long as user did not enter q, the function will be converting string to long number and stay in the loop
+    long_number = atol(long_string);                            //function atol is used for coverting the numbers in the string argument to long integer.
+    printf("Converted number is %ld\n", long_number);           //display the long integer converted
+    printf("Type the long numeric string (q - to quit):\n");    //prompt user for string to be converted to long integer or quit the function if q is entered
+    gets(long_string);
+}
+printf("*** End of Converting Strings to long Demo ***\n\n")
 
 }
